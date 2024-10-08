@@ -19,7 +19,8 @@ import { SitemarkIcon } from './CustomIcons';
 import Card from '@mui/material/Card'; // Ensure this is correct
 import { authenticateUser } from '../api/auth'; // Import your API function
 
-export default function SignIn(props: { disableCustomTheme?: boolean }) {
+
+export default function SignIn(props:any) {
   const [emailError, setEmailError] = React.useState(false);
   const [emailErrorMessage, setEmailErrorMessage] = React.useState('');
   const [passwordError, setPasswordError] = React.useState(false);

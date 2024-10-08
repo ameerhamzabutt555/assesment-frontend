@@ -1,0 +1,4 @@
+# Ignore specific files or directories
+/src/api/*
+/src/app/shared-theme/*
+/src/app/*

@@ -25,7 +25,7 @@ const Dashboard = () => {
     phoneNumber: "",
     city: "",
     images: [],
-    userId: userId
+    userId: ""
   });
 
   const [pictureThumbnails, setPictureThumbnails] = useState<string[]>([]);
